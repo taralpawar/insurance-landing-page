@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0 1rem 0;
+  padding: 0 10rem 0 10rem;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-left: 1rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: hsl(216, 30%, 68%);
+}
+
+.nav a:hover {
+  color: hsl(256, 26%, 20%);
+}
+
+.nav button {
+  background: none;
+  outline: none;
+  border: 1px solid hsl(256, 26%, 20%);
+  color: hsl(256, 26%, 20%);
+  font-size: 12px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding: 0.5rem;
+}
+
+.nav button:hover {
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  cursor: pointer;
+}
+
+.header {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.upper {
+  height: 80%;
+  width: 100%;
+  background-color: hsl(256, 26%, 20%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3rem 10rem 3rem 10rem;
+}
+
+.bg-img1 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 12%;
+  height: 65%;
+}
+
+.bg-img2 {
+  position: absolute;
+  top: 11%;
+  right: 0;
+  width: 30%;
+  height: 60%;
+}
+
+.headerContent {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.headerImg {
+  width: 45%;
+  height: 150%;
+}
+
+.headerImg img {
+  height: 100%;
+  width: 100%;
+}
+
+.line {
+  border: none;
+  border-bottom: 1px solid white;
+  width: 30%;
+}
+
+.line2 {
+  border: none;
+  border-bottom: 1px solid hsl(256, 26%, 20%);
+  width: 12%;
+}
+
+.headerTitle {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 60px;
+  color: white;
+  margin-top: 2rem;
+  line-height: 1;
+}
+
+.headerText {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  color: white;
+  margin-top: 2rem;
+}
+
+.headerBtn {
+  width: 30%;
+  background: none;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  font-size: 12px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+
+.headerBtn:hover {
+  background: white;
+  color: hsl(256, 26%, 20%);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 10rem 3rem 10rem;
+}
+
+.mainTitle {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 60px;
+  color: hsl(270, 9%, 17%);
+  margin-top: 2rem;
+  line-height: 1;
+}
+
+.mainCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  width: 30%;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardImg {
+  height: 60px;
+  width: 60px;
+}
+
+.cardTitle {
+  margin-top: 1.5rem;
+  font-size: 20px;
+  font-family: "DM Serif Display", serif;
+  color: hsl(270, 9%, 17%);
+}
+
+.cardText {
+  margin-top: 1rem;
+  font-size: 16px;
+  color: hsl(273, 4%, 51%);
+  font-family: "Karla", sans-serif;
+}
+
+.mainBottom {
+  width: 100%;
+  height: 30vh;
+  background-color: hsl(256, 26%, 20%);
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.bottomTitle {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: white;
+  line-height: 1;
+}
+
+.bottomBtn {
+  background: none;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  font-size: 12px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.bottomBtn:hover {
+  background-color: white;
+  color: hsl(256, 26%, 20%);
+}
+
+.bottomImg {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  height: 100%;
+  width: 30%;
+}
+
+.footer {
+  width: 100%;
+  height: 50vh;
+  background-color: hsl(0, 0%, 98%);
+  position: relative;
+  padding: 3rem 10rem 3rem 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 60%;
+}
+
+.footerHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.socailLogo {
+  margin-left: 1rem;
+}
+
+.line3 {
+  border: none;
+  border-bottom: 1px solid hsl(273, 4%, 51%);
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.footerCard {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.footerName {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-left: 1rem;
+  color: hsl(216, 30%, 68%);
+  margin-bottom: 1rem;
+}
+
+.footerLink {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-left: 1rem;
+  color: hsl(256, 26%, 20%);
+  margin-top: 0.5rem;
+}
